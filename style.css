@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+
+  background-color: #333;
+  color: #fff;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+}
+
+.header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-column  .button {
+  width: 100%;
+}
+
+.button {
+  height: 2.25rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  gap: 0.5rem;
+}
+
+.input-container label {
+  font-size: 1rem;
+}
+
+.input-container input {
+  padding: 0.5rem;
+  border: 1px solid #333;
+  font-size: 1rem;
+}
+
+.input-container select {
+  padding: 0.5rem;
+  border: 1px solid #333;
+  font-size: 1rem;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox-container label {
+  font-size: 1rem;
+}
+
+.table-container {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+.table-container th {
+  background-color: #333;
+  color: #fff;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+}
